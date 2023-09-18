@@ -1,6 +1,0 @@
-#!/bin/sh -e
-
-sed -i 's/--libs ncurses/--libs ncursesw/' GNUmakefile
-
-make STATIC=yesplease
-install -Dm755 -t "$1/usr/bin" mg
