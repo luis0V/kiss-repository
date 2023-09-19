@@ -1,3 +1,0 @@
-#!/bin/sh -e
-
-make -C dwm-notify-send DESTDIR="$1" PREFIX=/usr install
